@@ -1,0 +1,14 @@
+name: BetterTeleports
+version: '${project.version}'
+main: BetterTeleports.Main
+api-version: 1.19
+authors: [ EthanGarey ]
+commands:
+  teleport:
+    aliases: [ "tp" ]
+    permission: BetterServer.permissions.commands.teleport
+  tpall:
+    aliases: [ "bringall" ]
+    permission: BetterServer.permissions.commands.teleport.others.all
+  tphere:
+    permission: BetterServer.permissions.commands.teleport.here
